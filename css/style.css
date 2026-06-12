@@ -386,3 +386,82 @@ textarea:focus {
     bottom: 50px;
     text-align: center; 
 }
+
+/* MOBILE OVERRIDES ONLY */
+
+
+@media screen and (max-width: 768px) {
+    
+    
+    /* GLOBAL */
+
+
+    h1 {
+        margin-top: 40px;
+        font-size: 42px !important;
+    }
+
+
+    /* HOMEPAGE ONLY */
+
+
+    .homepageText {
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 40px;
+    }
+
+
+    .textLayer {
+        position: static;
+        font-size: 28px;
+        text-align: center;
+        max-width: 90%;
+        display: block;
+        margin: 0px;
+    }
+
+
+    .filterImg,
+    .ratchetImg {
+        position: static;
+        display: flex;
+        justify-content: center;
+    }
+
+
+    .filterImg img,
+    .ratchetImg img {
+        width: 70%;
+        height: auto;
+        max-width: 250px;
+    }
+
+
+    /* ABT PAGE ONLY */
+
+
+
+
+    /* CONTACT ONLY */
+
+
+    .contactForm form {
+        width: 80%;
+        max-width: 350px;
+        margin: 0 auto;
+    }
+
+
+    .textAreaContact {
+        width: 100%;
+        display: block;        
+    }
+
+
+    /* BOOKING PAGE ONLY */
+
+
+}
